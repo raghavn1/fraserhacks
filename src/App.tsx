@@ -36,7 +36,7 @@ function App() {
   // Timer countdown
   useEffect(() => {
     let interval: NodeJS.Timeout | null = null
-    
+
     if (timer.isRunning && !timer.isPaused && timer.currentTime > 0) {
       interval = setInterval(() => {
         tick()
@@ -55,7 +55,7 @@ function App() {
     const interval = setInterval(() => {
       // Random distraction simulation
       const isDistracted = Math.random() > 0.85
-      
+
       if (isDistracted) {
         updateDetection({
           eyeContactDetected: false,
@@ -129,7 +129,7 @@ function App() {
               sessionLength={timer.sessionLength}
               onSessionLengthChange={setSessionLength}
             />
-            
+
             {/* Mobile Quote */}
             {!settings.focusMode && (
               <div className="lg:hidden mt-8 text-center max-w-sm">
@@ -189,7 +189,7 @@ function App() {
       {/* Footer */}
       <footer className="py-6 text-center">
         <p className="text-xs text-muted-foreground">
-          StudyAI - Smart AI Study Timer
+          TeroFlow - Smart AI Study Timer
         </p>
       </footer>
     </div>
