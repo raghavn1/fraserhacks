@@ -1,21 +1,49 @@
-# React + TypeScript + Vite
+# Tero Flow – Smart Study Alarm & Focus Tracker
+https://v0-vite-react-project-two.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview  
+**Tero Flow** is an intelligent study companion designed to help students stay focused and productive. It combines **AI-powered face tracking**, **screen activity monitoring**, and a **smart alarm system** to ensure you remain engaged during study sessions.  
 
-While this project uses React, Vite supports many popular JS frameworks. [See all the supported frameworks](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
+Instead of relying on traditional timers, Tero Flow actively checks whether you are *actually studying* — not just sitting in front of your device.
 
-## Deploy Your Own
+---
 
-Deploy your own Vite project with Vercel.
+## 🚀 Features  
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/framework-boilerplates/vite-react&template=vite-react)
+### 👁️ Face Tracking  
+- Uses your webcam to detect presence and attention  
+- Alerts you if you leave your study space  
+- Helps maintain accountability during sessions  
 
-_Live Example: https://vite-react-example.vercel.app_
+### 💻 Screen Monitoring  
+- Tracks active applications and usage  
+- Detects distractions (e.g., switching tabs or apps)  
+- Encourages focus by identifying off-task behavior  
 
-### Deploying From Your Terminal
+### ⏰ Smart Study Alarm  
+- Adaptive timer based on your activity  
+- Extends or pauses sessions depending on focus  
+- Notifies you when it's time to refocus or take breaks  
 
-You can deploy your new Vite project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
+### 📊 Productivity Insights *(optional/expandable)*  
+- Track study time and consistency  
+- Visualize focus patterns over time  
 
-```shell
-$ vercel
-```
+---
+
+## 🛠️ Tech Stack  
+
+- **Frontend:** React + Vite  
+- **Styling:** Tailwind CSS  
+- **Animations:** Framer Motion  
+- **AI / Tracking:** OpenCV / Browser APIs / Custom Logic  
+- **Deployment:** GitHub Pages / Vercel  
+
+---
+
+## ▶️ Getting Started  
+
+### 1. Clone the repository  
+```bash
+git clone https://github.com/your-username/tero-flow.git
+cd tero-flow
