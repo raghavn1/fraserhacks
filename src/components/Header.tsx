@@ -22,7 +22,7 @@ export function Header({ focusMode, onToggleFocusMode, quote }: HeaderProps) {
                 <span className="absolute -top-1 -right-1 w-2.5 h-2.5 bg-success rounded-full border-2 border-background" />
               </div>
               <div className="hidden sm:block">
-                <h1 className="text-lg font-semibold text-foreground">StudyAI</h1>
+                <h1 className="text-lg font-semibold text-foreground">TeroFlow</h1>
                 <p className="text-xs text-muted-foreground -mt-0.5">Smart Focus Timer</p>
               </div>
             </div>
